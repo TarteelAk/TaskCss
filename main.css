@@ -13,26 +13,28 @@
     
   /*  background-color: antiquewhite;*/
 }
-.navbar{
+
+.navbar .container{
     background-color: black;
-    
+    display: flex;
+    align-items: center;
+      justify-content: space-between;
 }
 
 .logo img{
-    width: 80px;
+    width: 50%;
    /* margin-top: 10px;*/
   /*  display: flex;*/
 }
-/*.navbar .list {
-    display: flex;
+.navbar .list {
+    /*display: flex;*/
     justify-content:flex-end;
     align-content: space-around;
-    
-    
-}*/
+}    
 .list ul{
     display: flex;
-    justify-content: end;
+  
+
    
 }
 
@@ -49,9 +51,8 @@
     text-decoration: none;   
     color: aliceblue; 
 }
-.Text p{
-    
-}
+
+
 .PORTFOLIO{
     text-align: center;
     background-color:antiquewhite;
@@ -78,7 +79,7 @@
 }
 
 .PORTFOLIO-img1{
-    width: 30%;
+    width: 31%;
     background-color:bisque;
    
 }
